@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'FS-Sinclair-Regular';
+    src: url('fonts/FS-Sinclair-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Insignia-Regular';
+    src: url('fonts/Insignia-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'FS-Sinclair-Regular', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Insignia-Regular', sans-serif;
+  }
