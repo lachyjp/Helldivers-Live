@@ -81,9 +81,9 @@ function displayPlanetData(data, planetInfo) {
 }
 
 // Ensure this function is called after the document has fully loaded
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   // Attach the searchForPlanet function to the form submit event
-  document.getElementById('planet-search-form').addEventListener('submit', function(event) {
+  document.getElementById('planet-search-form').addEventListener('submit', function (event) {
     event.preventDefault(); // Prevent the default form submission
     searchForPlanet();
   });
