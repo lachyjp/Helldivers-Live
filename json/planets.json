@@ -257,7 +257,8 @@
     },
     "64": {
         "name": "Meridia",
-        "message": "Explore the mysteries of Meridia!"
+        "message": "Abundant with life, this wet planet is covered in deep oceans, thick forests, and tall grasses.",
+        "image": "images/planets/meridia.png"
     },
     "65": {
         "name": "Borea",
@@ -501,11 +502,13 @@
     },
     "125": {
         "name": "Fenrir III",
-        "message": "Explore the mysteries of Fenrir III!"
+        "message": "A rocky, lonely moon with extremely valuable mineral deposits underneath the surface.",
+        "image": "images/planets/fenrir-iii.png"
     },
     "126": {
         "name": "Turing",
-        "message": "Explore the mysteries of Turing!"
+        "message": "This world teems with etereal, boundless, and peculiar plant life that spreads silent and uninterrupted across its entire surface.",
+        "image": "images/planets/turing.png"
     },
     "127": {
         "name": "Angel's Venture",
@@ -674,7 +677,8 @@
     },
     "168": {
         "name": "Erata Prime",
-        "message": "Explore the mysteries of Erata Prime!"
+        "message": "A desert planet prone to unpredictable and dangerous sand twisters.",
+        "image": "images/planets/erata-prime.png"
     },
     "169": {
         "name": "Estanu",
@@ -786,7 +790,8 @@
     },
     "196": {
         "name": "Malevelon Creek",
-        "message": "Explore the mysteries of Malevelon Creek!"
+        "message": "The strange subversion of photosynthesis that sustains the oddly-hued flora that flourishes on this planet remains an intriguing mystery to Super Earth's greatest exo-biologists.",
+        "image":"images/planets/malevelon-creek.png"
     },
     "197": {
         "name": "Mantes",
@@ -974,7 +979,8 @@
     },
     "243": {
         "name": "Vandalon IV",
-        "message": "Explore the mysteries of Vandalon IV!"
+        "message": "Submerged in eternal winter, this world's frosty peaks glimmer in the light of its too-distant star.",
+        "image": "images/planets/vandalon-iv.png"
     },
     "244": {
         "name": "Varylia 5",

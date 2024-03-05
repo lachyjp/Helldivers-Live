@@ -60,7 +60,7 @@ function displayPlanetData(data, planetInfo) {
 
    // Set color based on owner
    switch (data.owner.toLowerCase()) {
-    case 'terminid':
+    case 'terminids':
       planetOwnerElement.style.color = 'orange';
       break;
     case 'automaton':
