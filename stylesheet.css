@@ -1,21 +1,104 @@
+/* --------------------------------------- FONT FACES -------------------------------------------- */
+
+/* SINCLAIR FAMILY */
+
+@font-face {
+  font-family: 'FS-Sinclair-Light';
+  src: url('fonts/FS-Sinclair-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @font-face {
     font-family: 'FS-Sinclair-Regular';
     src: url('fonts/FS-Sinclair-Regular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
-  }
+}
 
-  @font-face {
-    font-family: 'Insignia-Regular';
-    src: url('fonts/Insignia-Regular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  body {
-    font-family: 'FS-Sinclair-Regular', sans-serif;
-  }
-  
-  h1 {
-    font-family: 'Insignia-Regular', sans-serif;
-  }
+@font-face {
+  font-family: 'FS-Sinclair-Medium';
+  src: url('fonts/FS-Sinclair-Medium.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FS-Sinclair-Bold';
+  src: url('fonts/FS-Sinclair-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* INSIGNIA FAMILY */
+
+@font-face {
+  font-family: 'Insignia-Regular';
+  src: url('fonts/Insignia-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* WARDRUM Family */
+
+@font-face {
+  font-family: 'Wardrum-Bold';
+  src: url('fonts/Wardrum-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Wardrum-Regular';
+  src: url('fonts/Wardrum-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Swiss-721-Extended-Bold';
+  src: url('fonts/Swiss-721-Extended-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* --------------------------------------- TEXT AND BACKGROUND ---------------------------------------------- */
+
+
+/* ASSIGNING FONTS */
+
+h1 {
+  font-family: 'Swiss-721-Extended-Bold', sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: 'Swiss-721-Extended-Bold', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: 'FS-Sinclair-Light', sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+  background-color:rgb(0, 0, 0);
+  font-family: 'FS-Sinclair-Regular', sans-serif;
+  color:#b1b1b1;
+  font-size: 1rem;
+  margin: 3rem;
+}
+
+#automatons {
+  color:#ff6161;
+}
+
+#terminids {
+  color: #ffb800;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+

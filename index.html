@@ -5,28 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helldivers Live</title>
     <link rel="stylesheet" href="stylesheet.css">
-
+    <script src="script.js"></script>
 </head>
 <body>
+
+    <div>
+        <h1>HELLDIVERS II LIVE</h1>
+        <p>version 0.1.0</p>
+        <p>WARNING: FOR NOW, YOU NEED AN EXTENSION TO BYPASS CORS. FIREFOX EXAMPLE: https://addons.mozilla.org/en-US/firefox/addon/cors-everywhere/</p>
+    </div>
+
+    <div>
+        <h2>PLANET SEARCH</h1>
+        <form id="planet-search-form">
+            <input type="text" id="input-planet-name" placeholder="Enter Planet Name" required>
+            <button type="submit">Get Planet Info</button>
+        </form>
+    </div>
+    
+    
+
     <div id="planet-info">
-        <h1>PLANET INFORMATION</h1>
-        <div>Owner: <span id="planet-owner"></span></div>
+        <h3>PLANET INFO</h2>
         <div>Name: <span id="planet-name"></span></div>
         <div>Sector: <span id="planet-sector"></span></div>
+        <div>Owner: <span id="planet-owner"></span></div>
         <div>Health: <span id="planet-health"></span></div>
         <div>Liberation: <span id="planet-liberation"></span></div>
         <div>Regeneration per second: <span id="planet-regen"></span></div>
         <div>Players present: <span id="planet-players"></span></div>
         <div>Coordinates: <span id="planet-coordinates"></span></div>
-      </div>
+        <div>Message: <span id="planet-message"></span></div>
+        <div>Image: <span id="planet-image"></span></div>
+        
 
-      <div id="event-info">
-        <h1>EEVENT INFORMATION</h1>
+    </div>
+
+    <div id="event-info">
+        <h2>EVENT INFO</h2>
+        <div><span id="event-title"></span></div>
         <div>Message: <span id="event-message"></span></div>
         <div>Race: <span id="event-race"></span></div>
-        <div>Title: <span id="event-title"></span></div>
     </div>
-      
-    <script src="script.js"></script>
+    
+    <div>
+        <h3>Changelog</h3>
+        0.1.0 - Initial commit
+    </div>
 </body>
 </html>
