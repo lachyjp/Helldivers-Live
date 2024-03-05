@@ -54,7 +54,24 @@ function displayPlanetData(data, planetInfo) {
 
   // Displaying basic planet data
   document.getElementById('planet-name').textContent = planetData.name || 'Name not available';
+
+  const planetOwnerElement = document.getElementById('planet-owner');
   document.getElementById('planet-owner').textContent = data.owner || 'Owner not available';
+
+   // Set color based on owner
+   switch (data.owner.toLowerCase()) {
+    case 'terminid':
+      planetOwnerElement.style.color = 'orange';
+      break;
+    case 'automaton':
+      planetOwnerElement.style.color = 'red';
+      break;
+    case 'human':
+      planetOwnerElement.style.color = 'blue';
+      break;
+    default:
+      planetOwnerElement.style.color = 'black'; // Default color
+  }
 
   // Displaying additional planet details based on your object structure
   document.getElementById('planet-health').textContent = data.health || 'Health not available';
